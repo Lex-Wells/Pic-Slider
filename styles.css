@@ -1,0 +1,229 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    font-family:  'Antonio';
+}
+nav{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.navOption a{
+   
+    color: #fff;
+    padding: 0.5rem;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+  
+    
+}
+  .navOption a:hover,
+  .navOption a:focus {
+    color: rgba(187, 215, 229, 0.8);
+  }
+
+.logo{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.slidingMenu{
+
+    display: flex;
+    width: 500vw;
+   
+}
+.menuItem{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+.menuContainer{
+    height: 450px;
+    width: 450px;
+    background-color:rgba(11, 19, 64, 0.4);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin: 30px;
+    box-shadow:  8px 6px 8px -2px rgba(66,66,66,0.75);
+
+}
+.menuImg{
+    height: 450px;
+    width: 450px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.menuCreator{
+    cursor: pointer;
+}
+.arrowsMenu{
+      position: absolute; 
+      align-items: center;
+      cursor: pointer;
+    justify-content: space-between;
+    color:  white;
+}
+#material-icons-right{
+    color: rgba(253, 114, 114, 1);
+    margin-left: 0px;
+    transition: all 0.5s ease;
+}
+#material-icons-right:hover,
+#material-icons-right:focus {
+
+  color: rgba(239, 0, 0, 1);
+}
+#material-icons-left{
+    margin-left: 400px;
+    transition: all 0.5s ease;
+    color:rgba(134, 152, 255, 1);
+}
+
+#material-icons-left:hover,
+#material-icons-left:focus {
+
+  color:  rgba(0, 67, 239, 1);
+
+}
+.menuCreator{
+    color: aliceblue;
+}
+.lovedItem{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.lovedContainer{
+    height: 300px;
+    width: 300px;
+    background-color: rgba(11, 19, 64, 0.4);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin: 30px;
+    box-shadow: 8px 6px 8px -2px rgba(66,66,66,0.75);
+}
+.lovedImg{
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    cursor: pointer;
+    object-fit: cover;
+}
+.lovedText{
+    color: white;
+    margin-top: 20px;
+} 
+.menu-name-love{
+    color: darkseagreen;
+}
+.slidingMenu{
+    transition: 1.3s ease-in-out;
+}
+.mainSections{
+    overflow: hidden; 
+}
+.hatedItem{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+.hatedText{
+    color: white;
+    margin-top: 20px;
+}    
+.hatedContainer{
+    
+    height: 300px;
+    width: 300px;
+    background-color: rgba(11, 19, 64, 0.4);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin: 30px;
+    box-shadow: 8px 6px 8px -2px rgba(66,66,66,0.75);
+
+}
+
+.hatedImg{
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.menuLink{
+    color:white;
+}
+.menu-name-hate{
+    color: darkseagreen;
+}
+
+.menu-container-hide{
+    height: 500px;
+    width: 500px;
+    background-color: lightcyan;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(209,209,209,0.27);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 1s, opacity 1s linear; 
+}
+.menuFadeIn{
+    color: goldenrod;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+}
+.menuFadeOut{
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out; 
+}
+
+a {
+    text-decoration: none;
+    color: paleturquoise;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+.testMes{
+    color: chocolate;
+}
+
+
+.homeTwo{
+    color: rgba(173, 0, 255, 1);
+    transition: all 0.5s ease;   
+}

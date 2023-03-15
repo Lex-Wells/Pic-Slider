@@ -9,16 +9,6 @@ const arrowRight = document.getElementById("material-icons-right")
 const menuContainer = document.getElementById("menuContainer")
 
 
-const navLink = document.querySelectorAll('.navLink').forEach(link=>{
-link.addEventListener('focus',function(){
-console.log(link.classList);
-})
-})
-
-
-const testEr = optionsEl[0].children[1].firstElementChild
-
-console.log(testEr);
 
 navOptionEl.forEach(function(option,index){
     option.addEventListener('click', function(){
@@ -78,8 +68,6 @@ arrowLeft.addEventListener('click',function(){
        
         newImgSwipe()
     
-   
-   console.log(hatedParsed);
 })
 
 
@@ -129,19 +117,3 @@ function newImgSwipe(){
   newImg()
 }
  
-//  arrowLeft.addEventListener('click',function picFilter(picInfo){
-//   for (let i = 0; i < picInfo.length; i++){
-//         document.getElementById('hatedItem').innerHTML += `
-//         <div class="hatedContainer">
-//         <img src="${picInfo[i]}" alt=""i id="hatedImg" class="hatedImg">
-//         <a class="menuLink" href="${menuLinkEL}">Link</a>
-//         <h2 class="${menuCreatorEl}>Creator</h2>
-//         </div> `
-//   }
-//         newImg() 
-    
-//       })
-    
-     
-//    picFilter(menuImgEl)
-   

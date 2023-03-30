@@ -62,7 +62,6 @@ nav{
     padding: 10px;
     margin: 30px;
     box-shadow:  8px 6px 8px -2px rgba(66,66,66,0.75);
-
 }
 .menuImg{
     height: 450px;
@@ -74,15 +73,19 @@ nav{
     cursor: pointer;
 }
 .arrowsMenu{
-      position: absolute; 
-      align-items: center;
-      cursor: pointer;
+    position: absolute; 
+    align-items: center;
+    cursor: pointer;
+  color:  white;
+  width: 450px;
+}
+.arrow-container{
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    color:  white;
 }
 #material-icons-right{
     color: rgba(253, 114, 114, 1);
-    margin-left: 0px;
     transition: all 0.5s ease;
 }
 #material-icons-right:hover,
@@ -91,7 +94,6 @@ nav{
   color: rgba(239, 0, 0, 1);
 }
 #material-icons-left{
-    margin-left: 400px;
     transition: all 0.5s ease;
     color:rgba(134, 152, 255, 1);
 }
@@ -226,4 +228,30 @@ a {
 .homeTwo{
     color: rgba(173, 0, 255, 1);
     transition: all 0.5s ease;   
+}
+@media screen and (max-width:600px){
+   .menuContainer{
+        height: 300px;
+        width: 300px;
+        background-color:rgba(11, 19, 64, 0.4);
+        border-radius: 5px;
+        border: none;
+        padding: 10px;
+        margin: 30px;
+        box-shadow:  8px 6px 8px -2px rgba(66,66,66,0.75);
+    }
+    .menuImg{
+        height: 300px;
+        width: 300px;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+    .arrowsMenu{
+        position: absolute; 
+        align-items: center;
+        cursor: pointer;
+      justify-content: space-between;
+      color:  white;
+      width:300px;
+  }
 }

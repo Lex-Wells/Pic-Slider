@@ -32,7 +32,6 @@ fetch(endPoint)
     })
     .then(function(jsonData){
       if(jsonData === null){
-        console.log("mm");
       }else{
       menuImgEl.src = jsonData.urls.regular;
       menuLinkEL.setAttribute("href", jsonData.links.html);
@@ -51,10 +50,8 @@ for(let i= 0;i<imgData.length;i++){
 arrowLeft.addEventListener('click',function(){
   swipe()
   const hatedSave = JSON.stringify(dataResult)
-  console.log(hatedSave);
   localStorage.setItem("hatedIt", hatedSave)
  const hatedString = localStorage.getItem("hatedIt")
- console.log(hatedString);
   const hatedParsed = JSON.parse(hatedString) 
   document.getElementById('hatedItem').innerHTML += `
     <div class="hatedContainer">
@@ -80,7 +77,6 @@ arrowLeft.addEventListener('click',function(){
 
 
 arrowRight.addEventListener('click',function(){
- 
   swipe()
   document.getElementById('lovedItem').innerHTML += `
     <div class="lovedContainer">

@@ -233,7 +233,6 @@ a {
 }
 @media screen and (max-width:600px){
    .options{
-    background-color: aqua;
     margin-right:40px;
    }
    .menuContainer{

@@ -70,12 +70,6 @@ arrowLeft.addEventListener('click',function(){
 
 
 
-
-
-
-
-
-
 arrowRight.addEventListener('click',function(){
   swipe()
   document.getElementById('lovedItem').innerHTML += `

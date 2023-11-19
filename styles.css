@@ -6,13 +6,12 @@ body{
 }
 nav{
     
-   margin-top: 20px;
+   margin-top: 20px; 
     color: white;
 }
 .navOption a{
    
     color: #fff;
-    /* padding: 0.5rem; */
     font-size: 25px;
     text-align: center;
     text-decoration: none;
